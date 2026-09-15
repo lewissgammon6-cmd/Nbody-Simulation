@@ -3,7 +3,7 @@ import pytest
 
 import bodies, forces
 from integrators import euler_step, rk4_step, velocity_verlet_step
-from src.simulation import run_simulation
+from simulation import run_simulation
 
 
 def test_no_self_interaction():
