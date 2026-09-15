@@ -1,3 +1,4 @@
+![Tests](https://github.com/lewissgammon6-cmd/Nbody-Simulation/actions/workflows/tests.yml/badge.svg)
 # N-Body Gravitational Simulation
 
 A vectorized N-body gravitational simulator in Python, built to compare
