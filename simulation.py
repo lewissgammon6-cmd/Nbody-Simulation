@@ -15,8 +15,8 @@ from dataclasses import dataclass
 import numpy as np
 
 from bodies import System
-from .forces import compute_accelerations, total_energy, total_momentum
-from .integrators import INTEGRATORS
+from forces import compute_accelerations, total_energy, total_momentum
+from integrators import INTEGRATORS
 
 
 @dataclass
