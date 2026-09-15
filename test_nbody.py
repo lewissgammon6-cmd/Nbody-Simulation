@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 
 import bodies, forces
-from src.integrators import euler_step, rk4_step, velocity_verlet_step
+from integrators import euler_step, rk4_step, velocity_verlet_step
 from src.simulation import run_simulation
 
 
