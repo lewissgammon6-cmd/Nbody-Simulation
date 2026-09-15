@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 import numpy as np
 
-from .bodies import System
-from .simulation import SimulationResult
+from bodies import System
+from simulation import SimulationResult
 
 
 def plot_trajectories(system: System, result: SimulationResult, out_path: str,

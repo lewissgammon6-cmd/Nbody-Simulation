@@ -16,9 +16,9 @@ from __future__ import annotations
 import argparse
 import sys
 
-from src.bodies import SCENARIOS
-from src.simulation import run_simulation
-from src.visualize import animate_system, plot_energy_drift, plot_trajectories
+from bodies import SCENARIOS
+from simulation import run_simulation
+from visualize import animate_system, plot_energy_drift, plot_trajectories
 
 
 def build_system(args: argparse.Namespace):
